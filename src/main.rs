@@ -1,6 +1,7 @@
 use std::fs;
 use std::collections::HashMap;
-fn part_one(mut left_list: Vec<i32>, mut right_list: Vec<i32>) {
+
+fn day_one_part_one(mut left_list: Vec<i32>, mut right_list: Vec<i32>) {
 
     left_list.sort();
     right_list.sort();
@@ -15,7 +16,7 @@ fn part_one(mut left_list: Vec<i32>, mut right_list: Vec<i32>) {
     // println!("{:?}", right_list);
 }
 
-fn part_two(left_list: Vec<i32>, right_list: Vec<i32>) {
+fn day_one_part_two(left_list: Vec<i32>, right_list: Vec<i32>) {
     let mut hash_map = HashMap::<i32, i32>::new();
 
     for i in 0..right_list.len() {
@@ -46,5 +47,5 @@ fn main() {
     // let left_list = vec![3, 4, 2, 1, 3, 3];
     // let right_list = vec![4, 3, 5, 3, 9, 3];
 
-    part_two(left_list, right_list);
+    day_one_part_two(left_list, right_list);
 }
