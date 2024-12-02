@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 pub fn part_one(mut left_list: Vec<i32>, mut right_list: Vec<i32>) {
 
     left_list.sort();
