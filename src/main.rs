@@ -4,10 +4,11 @@ mod day_one;
 mod day_two;
 mod day_three;
 mod day_four;
+mod day_five;
 mod utils;
 
 fn main() {
-    day_four::main();
+    day_five::main();
     // day_three::main();
     // let input = fs::read_to_string("input.txt").unwrap();
     // let lines = input.lines().map(|line| line.split("   ").collect::<Vec<&str>>()).collect::<Vec<Vec<&str>>>();
